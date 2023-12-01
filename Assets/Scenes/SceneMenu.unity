@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 437837515}
   - component: {fileID: 437837514}
   - component: {fileID: 437837513}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 810289035}
   - component: {fileID: 810289034}
   - component: {fileID: 810289033}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Cube2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
