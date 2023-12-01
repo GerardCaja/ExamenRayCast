@@ -28,7 +28,7 @@ public class Rayo : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
-            if(hit.transform.gameObject.layer == 3)
+            if(hit.transform.gameObject.layer == 8)
             {
                 Debug.Log(hit.transform.name);
             }
@@ -38,7 +38,7 @@ public class Rayo : MonoBehaviour
                 Debug.Log(hit.transform.name);
             }
         
-            else if(hit.transform.gameObject.layer == 7)
+            else if(hit.transform.gameObject.layer == 9)
             {
                 Debug.Log(hit.transform.name);
             }
