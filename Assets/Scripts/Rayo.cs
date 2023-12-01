@@ -13,11 +13,8 @@ public class Rayo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
-        Vector3 forward = transform.TransformDirection(Vector3.forward) * Mathf.Infinity;
-        Debug.DrawRay(transform.position, forward, Color.green);
-
         if(Input.GetButtonDown("Fire1"))
         {
             RaycastTest();
